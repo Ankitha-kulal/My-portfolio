@@ -1,0 +1,82 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f9f9f9; /* Example background color */
+  }
+  
+  .about-text {
+    max-width: 50%;
+    padding-left: 150px; 
+    font-family: system-ui;
+    font-size: small;
+  }
+  
+  .line{
+    width: 100%;
+    height: 1px;
+    color: orange;
+  }
+  .main-heading {
+    font-size: 67px; /* Larger than h1 */
+    margin-bottom: 10px;
+    /* Add padding from the left side */
+  }
+  
+  .about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .about h3{
+    color: orange;
+  }
+  
+  .highlight {
+    color: orange; /* Default color */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .highlight:hover {
+    color: black; /* Color on hover */
+    animation: blink 1s infinite; /* Blinking effect */
+  }
+  
+  @keyframes blink {
+    50% {
+      color: orange; /* Keep the color consistent while blinking */
+    }
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .contact-button {
+    background-color: white;
+    border-color: orange;
+    color: orange;
+    padding: 10px 20px;
+    border: orange;
+    border-radius: 10px;
+    
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-button:hover {
+    background-color: orange;
+    color: white;
+  }
+  
+  .about-image img {
+    max-width: 300px;
+    border-radius: 10px; /* Optional: To make the image corners rounded */
+  }
+  
+  .about-image {
+    max-width: 40%;
+  }
+  
